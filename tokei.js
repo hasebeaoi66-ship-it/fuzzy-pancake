@@ -40,7 +40,7 @@ function updateClock() {
         endTime = 16 * 60 + 15;
         document.getElementById("now zikanwari").textContent = "7時間目";  
 
-    }  else if (nowTime > 1615) {
+    }  else if (nowTime < 1615) {
          document.getElementById("now zikanwari").textContent = "休憩時間"; 
 
     }
